@@ -1,0 +1,12 @@
+cn/scau/TestRateRuleDAO.class
+cn/scau/TestDRSService.class
+cn/scau/TestRateTypeService.class
+cn/scau/TestRoomTypeService.class
+cn/scau/TestDRSDao.class
+cn/scau/testStaffService.class
+cn/scau/TestStaffDAO.class
+cn/scau/TestRoomTypeDAO.class
+cn/scau/TestDailyRate.class
+cn/scau/BaseTest.class
+cn/scau/TestRSVSendMail.class
+cn/scau/TestRateTypeDAO.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/hotel?useSSL=true" driverClass="com.mysql.jdbc.Driver" password="123456" userId="root" />
+    <javaModelGenerator targetPackage="cn.scau.pojo" targetProject="HRS6/src/main/java" />
+    <sqlMapGenerator targetPackage="mapper" targetProject="HRS6/src/main/resources" />
+    <javaClientGenerator targetPackage="cn.scau.dao" targetProject="HRS6/src/main/java" type="XMLMAPPER" />
+    
+    <table tableName="ds" domainObjectName="DS" enableCountByExample="true" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+    	<property name="my.isgen.usekeys" value="true"/>
+        <property name="useActualColumnNames" value="true"/>
+    </table> 
+   
+                
+  </context>
+</generatorConfiguration>
