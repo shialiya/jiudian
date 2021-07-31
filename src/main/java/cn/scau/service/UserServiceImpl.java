@@ -1,6 +1,7 @@
 package cn.scau.service;
 
 import cn.scau.pojo.Staff;
+import cn.scau.pojo.User;
 
 /**
  * @ClassName：UserServiceImpl
@@ -10,5 +11,5 @@ import cn.scau.pojo.Staff;
  * @Versiion：1.0
  */
 public interface UserServiceImpl {
-    public Staff login(String id, String pd);
+    public User login(String id, String pd);
 }
