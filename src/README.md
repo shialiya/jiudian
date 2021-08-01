@@ -8,4 +8,3 @@
 三、运行说明
 1、数据库文件在hotel.sql
 2、幻灯片使用keynote制作，导出格式有pdf和pptx，但是排版不同，建议查看pdf版本
-3、此压缩包由unix系统生成，如果在Windows下面显示乱码，请在 https://gitee.com/SCAU15/HRS 中查看
